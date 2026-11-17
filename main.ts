@@ -12,7 +12,7 @@
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-// Updated with Brainrot Bay 3D island world, StealService, WaveService, RebirthService, and HUD client UI.
+// Re-recorded and authored in S1 build step by Gemini CLI agent for Brainrot Bay 3D collection game.
 // Verified and confirmed operational for Brainrot Bay autonomous evaluation.
 
 import { copyFileSync, cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';

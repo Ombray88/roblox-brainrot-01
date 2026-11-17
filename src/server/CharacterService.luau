@@ -94,7 +94,6 @@ end
 
 function CharacterService.SpawnBonusRarePlus()
 	pcall(function()
-		-- Filter characters to Rare or better (Weight or Rarity)
 		local rareChars = {}
 		for _, c in ipairs(Config.Characters) do
 			if c.Rarity ~= "Common" then
